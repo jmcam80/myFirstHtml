@@ -1,0 +1,26 @@
+.aLogo {
+    height:80%;
+    width:80%;
+    z-index: -1;
+    position: absolute;
+    
+    /* float: left; */
+}
+.hulk {
+    width:35%;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.bW {
+    
+}
+
+.hulk:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: rotate(30deg);
+}
