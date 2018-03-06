@@ -1,0 +1,77 @@
+.paragraph{
+    font-family: 'Supermercado One', cursive;
+    font-size:300%;
+    font-weight:bold;
+    line-height:50px;
+    letter-spacing:30px;
+}
+
+.first{
+    font-family: 'Risque', cursive;
+    font-size:150%;
+    font-weight:bolder;
+    line-height:30px;
+    letter-spacing:15px;
+}
+.second{
+    font-family:fantasy;
+    font-size:200%;
+    font-weight:lighter;
+    letter-spacing:10px;
+}
+
+.myButton{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+
+.myButton:hover{
+    background-color:blueviolet;
+}
+
+.myButton:focus {
+    background-color:red;
+}
+
+a.buttonLink{
+    text-decoration:none;
+    border:1px solid purple;
+    display:inline-block;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+a.buttonLink:hover{
+    background-color:green;
+}
+
+a.buttonLink:active{
+    background-color:aquamarine;
+}
+
+.buttonLink:link {    
+    text-decoration: none;
+    border: 1px solid purple;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+
+.container {
+    position: relative;
+    width: 480px;
+    height:520px;    
+}
+    .item {
+        position: absolute;
+        top: 0;
+        left:0;
+}
+    .container:hover .item img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
